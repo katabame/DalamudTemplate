@@ -10,7 +10,7 @@ public class MainWindow : Window, IDisposable
 {
 	private readonly Plugin plugin;
 
-	public MainWindow(Plugin plugin) : base("DalamudTemplate##MainWindow")
+	public MainWindow(Plugin plugin) : base("DalamudTemplate##DalamudTemplate_MainWindow")
 	{
 		this.plugin = plugin;
 		Size = new Vector2(320, 400);

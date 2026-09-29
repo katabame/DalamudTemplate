@@ -1,9 +1,10 @@
 using Dalamud.Game.Command;
+using Dalamud.Interface.Windowing;
 using Dalamud.IoC;
 using Dalamud.Plugin;
-using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
 using DalamudTemplate.Windows;
+using System;
 
 namespace DalamudTemplate;
 
@@ -43,7 +44,7 @@ public sealed class Plugin : IDalamudPlugin
 		PluginInterface.UiBuilder.OpenMainUi -= ToggleMainUi;
 
 		WindowSystem.RemoveAllWindows();
-		((System.IDisposable)MainWindow).Dispose();
+		((IDisposable)MainWindow).Dispose();
 
 		CommandManager.RemoveHandler(CommandName);
 	}
