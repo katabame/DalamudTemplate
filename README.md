@@ -1,6 +1,6 @@
 # DalamudTemplate
-![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/katabame/DalamudTemplate/install.zip?displayAssetName=false&style=for-the-badge&label=Installs)
-![GitHub Release](https://img.shields.io/github/v/release/katabame/DalamudTemplate?style=for-the-badge&label=Version)
+![Downloads Count](https://img.shields.io/github/downloads/katabame/DalamudTemplate/install.zip?displayAssetName=false&style=for-the-badge&label=Installs)
+![Release Version](https://img.shields.io/github/v/release/katabame/DalamudTemplate?style=for-the-badge&label=Version)
 
 テンプレートプラグイン
 
